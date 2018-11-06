@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  background: #0f0f0f;
+}
+
+.image__block {
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  background: #fff;
+  margin-top: 50px;
+}
+
+.image__block  > img {
+  width: 100%;
+  height: 450px;
+  background: url('assets/images/img1.jpg');
+  background-size: cover;
+
+}
+
+.imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 150px;
+  margin: auto;
+  background: #000; 
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+.imgs > img {
+  border: solid #000 2px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 150px;
+  background-size: cover; 
+}
+
+img {
+	cursor: pointer;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in 1 forwards;
+}
