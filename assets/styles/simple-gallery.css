@@ -1,0 +1,40 @@
+.simple-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple-gallery__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple-gallery__container img {
+  width: 25%;
+  height: 300px;
+  object-fit: cover;
+  transition: opacity 1s ease;
+}
+
+.simple-gallery img.current {
+  width: 100%;
+  height: 1000px;
+}
+
+.simple-gallery img.current-target {
+  opacity: 0.5;
+}
+
+.simple-gallery img.changing {
+  opacity: 0;
+  animation: changing 0.5s ease-in 1 forwards;
+}
+
+@keyframes changing {
+  to {
+    opacity: 1;
+  }
+}
