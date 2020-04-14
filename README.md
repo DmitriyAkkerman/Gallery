@@ -17,7 +17,7 @@
 
       <script src="assets/js/simple-gallery.js"></script>      
       
-4.Initialization. Init slider by specifying the root selector:
+4.Initialization. Init gallery by specifying the root selector:
 
       <script>
 
