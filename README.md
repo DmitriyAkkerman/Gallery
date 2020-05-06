@@ -1,3 +1,7 @@
+**Example**
+
+https://codepen.io/mickyholbrook/pen/GRpQpjB
+
 1.Markup. Create the root element with any selector, put inside the container element and your images:
 
       <div class="my-gallery">
